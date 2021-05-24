@@ -1,3 +1,4 @@
+## Basics
 pytest
 pylint
 ipdb
@@ -8,3 +9,6 @@ matplotlib
 seaborn
 scikit-learn
 packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
+
+## RL
+gym
