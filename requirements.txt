@@ -12,3 +12,8 @@ packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
 
 ## RL
 gym
+
+## Gym 2048
+pygame
+tensorflow
+gym-2048 @ git+https://github.com/rgal/gym-2048.git
