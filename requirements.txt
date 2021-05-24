@@ -17,4 +17,4 @@ gym
 ## For gym 2048
 pygame
 tensorflow
-gym-2048 @ git+https://github.com/rgal/gym-2048.git
+gym-2048 @ git@github.com:Valentin-Laurent/gym-2048.git
