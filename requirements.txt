@@ -10,10 +10,11 @@ seaborn
 scikit-learn
 packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
 
-## RL
+## Reinforcement Learning specific
+tensorforce
 gym
 
-## Gym 2048
+## For gym 2048
 pygame
 tensorflow
 gym-2048 @ git+https://github.com/rgal/gym-2048.git
