@@ -7,4 +7,5 @@ raw_data/
 .env
 .python-version
 /notebooks/summaries
+/notebooks/training_runs
 .vscode
