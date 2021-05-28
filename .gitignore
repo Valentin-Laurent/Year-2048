@@ -8,4 +8,5 @@ raw_data/
 .python-version
 /notebooks/summaries
 /notebooks/training_runs
+/notebooks/training_logs
 .vscode
