@@ -10,8 +10,6 @@ setup(name='Year-2048',
       description="Project Description",
       packages=find_packages(),
       install_requires=requirements,
-      test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/Year-2048-run'],
       zip_safe=False)

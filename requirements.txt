@@ -9,6 +9,7 @@ matplotlib
 seaborn
 scikit-learn
 packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
+ipywidgets
 
 ## Reinforcement Learning specific
 tensorforce

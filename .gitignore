@@ -2,11 +2,12 @@
 .coverage
 .ipynb_checkpoints
 .DS_Store
-raw_data/
 **/__pycache__/
 .env
 .python-version
 /notebooks/summaries
 /notebooks/training_runs
 /notebooks/training_logs
+/notebooks/data/*
+!/notebooks/data/.keep
 .vscode
