@@ -1,74 +1,16 @@
-# Data analysis
-- Document here the project: Year-2048
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Introduction
+Here we train agents to play the game 2048 using reinforcement learning, thanks to the Tensorforce library.
 
-Please document the project the better you can.
+See the [main training notebook](https://github.com/Valentin-Laurent/Year-2048/blob/master/notebooks/Training_notebook.ipynb) for a nice overview of our work. You can also watch [this 8 minutes video](https://youtu.be/MuwEa2A6XLA?t=1423) for an introduction to RL and an analysis of our results (in french).
 
-# Startup the project
-
-The initial setup.
-
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
-
-Unittest test:
-```bash
-make clean install test
-```
-
-Check for Year-2048 in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/Year-2048`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "Year-2048"
-git remote add origin git@github.com:{group}/Year-2048.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-Year-2048-run
-```
+The code has been pushed during an intense 2 weeks-long project, and thus this repo could use some cleaning (I've started working on it) :)
 
 # Install
-
-Go to `https://github.com/{group}/Year-2048` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
+Clone the project and install it (you may want to create a virtualenv first)
 
 ```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/Year-2048.git
-cd Year-2048
+git clone git@github.com:{group}/evaluating-student-writing.git
+cd evaluating-student-writing
 pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-Year-2048-run
+pip install . -U
 ```
