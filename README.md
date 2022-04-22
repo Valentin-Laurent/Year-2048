@@ -18,4 +18,4 @@ You can use the [main training notebook](https://github.com/Valentin-Laurent/Yea
 
 You can also load existing agents to further train them, possibly with different params. A dump of our best agent is available for you in the `best_agent` folder!
 
-Feel free to have a look at our other notebooks in `notebooks/drafts`. Please note that [we forked the gym-2048 environnement](https://github.com/Valentin-Laurent/gym-2048) to experiment on allowing illegal moves, modifying the reward, and more.
+Feel free to have a look at our other notebooks in `notebooks/drafts`. Please note that we use our own [custom gym-2048 environnement](https://github.com/Valentin-Laurent/gym-2048) to train agents.
